@@ -1,0 +1,20 @@
+# Binaries for programs and plugins
+src/github.com/*
+src/gopkg.in/*
+pkg/*
+*.exe
+*.a
+
+# go mod init <project> (generate module)
+*.mod
+*.sum
+
+# go build (generate binery execute file)
+RNG
+
+# Test binary, build with `go test -c`
+*.test
+
+# rng library
+!fortuna.h
+!libfortuna.so
